@@ -1,0 +1,7 @@
+> g++ generate_bump_contour.cpp -o generate_bump_contour
+> ./generate_bump_contour
+
+gmsh -3 bump3d.geo -o bump3d.msh
+
+P3 mesh - cca 32 000 nodes
+gmsh -3 -order 3 -optimize_ho -ho_min 0.7 -clscale 1.2 bump3d.geo -o test.msh

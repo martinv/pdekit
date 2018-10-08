@@ -1,0 +1,23 @@
+#ifndef PDEKIT_CONFIG_HPP
+#define PDEKIT_CONFIG_HPP
+
+// Define whether MPI was found
+#cmakedefine PDEKIT_HAVE_MPI @PDEKIT_HAVE_MPI@
+
+// Define whether Blas was found
+#cmakedefine PDEKIT_HAVE_BLAS @PDEKIT_HAVE_BLAS@
+
+// Define whether Lapack was found
+#cmakedefine PDEKIT_HAVE_LAPACK @PDEKIT_HAVE_LAPACK@
+
+// Define the provider of Blas and Lapack
+#cmakedefine PDEKIT_BLAS_LAPACK_PROVIDER_IS_NETLIB @PDEKIT_BLAS_LAPACK_PROVIDER_IS_NETLIB@
+#cmakedefine PDEKIT_BLAS_LAPACK_PROVIDER_IS_OPENBLAS @PDEKIT_BLAS_LAPACK_PROVIDER_IS_OPENBLAS@
+
+// Define whether Trilinos was found
+#cmakedefine PDEKIT_HAVE_TRILINOS @PDEKIT_HAVE_TRILINOS@
+
+// Define whether Scotch was found
+#cmakedefine PDEKIT_HAVE_SCOTCH @PDEKIT_HAVE_SCOTCH@
+
+#endif

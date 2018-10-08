@@ -1,0 +1,9 @@
+#CMake file created by qtcreator
+CMakeLists.txt.user*
+contrib/lapack-install
+*.kdev4
+nbproject
+build
+*.aux
+*.log
+*.pdf

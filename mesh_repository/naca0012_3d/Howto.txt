@@ -1,0 +1,5 @@
+> g++ generate_naca_geo.cpp -o generate_naca_geo
+> ./generate_naca_geo naca_contour.geo    
+
+gmsh -3 naca_3d.geo -o naca3d.msh
+
