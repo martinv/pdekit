@@ -1,0 +1,9 @@
+gmsh -3 -clscale 0.47 circular_bump3d.geo -o circ_bump_p1_tet.msh
+gmsh -3 -order 2 -optimize_ho -ho_min 0.7 -clscale 0.99 circular_bump3d.geo -o circ_bump_p2_tet.msh
+
+
+gmsh -3 -order 3 -optimize_ho -ho_min 0.7 -clscale 1.65 circular_bump3d.geo -o circ_bump_p3_tet.msh
+set nb_pts_x = nb_pts_y = nb_pts_z = 9
+
+
+gmsh -3 -order 4 -optimize_ho -ho_min 0.7 -clscale 2.30 circular_bump3d.geo -o circ_bump_p4_tet.msh

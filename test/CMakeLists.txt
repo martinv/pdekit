@@ -1,0 +1,11 @@
+enable_testing()
+
+add_subdirectory( utest-common )
+add_subdirectory( utest-math )
+add_subdirectory( utest-graph )
+add_subdirectory( utest-mesh )
+add_subdirectory( utest-interpolation )
+add_subdirectory( utest-physics )
+add_subdirectory( utest-quadrature )
+add_subdirectory( utest-linear-system )
+add_subdirectory( utest-solver )

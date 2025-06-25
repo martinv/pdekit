@@ -1,0 +1,5 @@
+ gmsh -2 -order 1 naca0012_transonic.geo -smooth 4 -o naca0012_shockrefine_p1.msh
+ gmsh -2 -order 2 naca0012_transonic.geo -smooth 4 -o naca0012_shockrefine_p2.msh
+ gmsh -2 -order 3 naca0012_transonic.geo -smooth 4 -o naca0012_shockrefine_p3.msh
+ gmsh -2 -order 4 naca0012_transonic.geo -smooth 4 -o naca0012_shockrefine_p4.msh
+ gmsh -2 -order 5 naca0012_transonic.geo -smooth 4 -o naca0012_shockrefine_p5.msh

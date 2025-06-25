@@ -1,2 +1,2 @@
 # pdekit
-Variable-beta Residual Distribution Methods for Euler Equations in 2D and 3D
+Demonstrator implementation of Residual Distribution Schemes with variable distribution coefficients.

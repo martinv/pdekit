@@ -1,0 +1,2 @@
+gmsh -3 -order 2 -hoOptimize -hoNlayers 4 -hoElasticity 0.3  cylinder_in_box.geo -o CylinderInBox_p2p2.msh
+

@@ -1,0 +1,39 @@
+list(APPEND PDEKIT_Linear_System_HEADERS
+ LSAssembler.hpp
+ LocalTransferOps.hpp
+ TpetraFacadeTools.hpp
+ LSTrilinos.hpp
+ LSTpetra.hpp
+ TpetraComm.hpp
+ TpetraDofMap.hpp
+ TrilinosCrsMatrix.hpp
+ TpetraCrsMatrix.hpp
+ TpetraCrsMatrixDiagBlocks.hpp
+ TrilinosMultiVector.hpp
+ TpetraInternalAccess.hpp
+ TpetraLinSolver.hpp
+ TpetraDirectSolver.hpp
+ TpetraTraits.hpp
+ TpetraFwd.hpp
+ TpetraIterativeSolver.hpp
+ TpetraMultiVector.hpp
+ CoarseScaleCorrection.hpp
+ preconditioner/TrilinosPC.hpp
+ preconditioner/TpetraBlockDiagPCImpl.hpp
+ preconditioner/TpetraBlockDiagPC.hpp
+ preconditioner/IfpackPC.hpp
+ preconditioner/AMGPC.hpp
+ preconditioner/TpetraCoarseScaleCorrPC.hpp
+ preconditioner/TpetraCoarseScaleCorrPCImpl.hpp
+)
+
+list(APPEND PDEKIT_Linear_System_SOURCES
+ LSAssembler.cpp
+ LSTrilinos.cpp
+ LSTpetra.cpp
+ TrilinosCrsMatrix.cpp
+ TpetraCrsMatrix.cpp
+ TrilinosMultiVector.cpp
+ TpetraMultiVector.cpp
+ CoarseScaleCorrection.cpp
+)

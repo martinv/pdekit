@@ -1,0 +1,5 @@
+gmsh -3 btc0.geo -order 2 -o btc0-mesh-p2.msh
+
+
+# This mesh is meant to be upgraded in the solver to p3:
+gmsh -3 -order 2 btc0_p2p3.geo -o btc0_p2p3.msh
